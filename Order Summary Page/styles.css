@@ -1,0 +1,129 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    height: 150px;
+    border-radius: 4px;
+    width: 321px;
+}
+
+.card {
+    background-color: #fff;
+    margin-top: 1px;
+    position: relative;
+    width: 322px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.title-desc h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2F56;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title-desc p {
+    text-align: center;
+    color: #7280A7;
+}
+
+.plan {
+    background-color: #F5F7FF;
+    display: flex;
+    border-radius: 20px;
+    width: 280px;
+    margin-left: 20px;
+}
+
+.price {
+    text-align: left;
+}
+
+.plan img {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.price h2 {
+    margin-left: 18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: #1F2F56;
+    margin-bottom: -10px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+.price p {
+    margin-left: 18px;
+    color: #7280B5;
+}
+
+.plan a {
+ text-align: right;   
+ margin-top: 30px;
+ margin-left: 45px;
+ color: #14279B;
+ font-weight: 700;
+ height: 18px;
+}
+
+.plan a:hover {
+    color: #6548e8;
+}
+
+.buttons {
+    display: grid;
+    margin-top: 15px;
+}
+
+.payment {
+    border: none;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3829E0;
+    color: #F7F7F7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment:hover {
+    cursor: pointer;
+    background-color: #6548e8;
+}
+
+.order {
+    border: none;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.order:hover {
+    cursor: pointer;
+    color: #1F2F56;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    margin-left: 540px;
+}
